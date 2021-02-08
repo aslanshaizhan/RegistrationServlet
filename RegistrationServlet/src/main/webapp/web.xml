@@ -1,0 +1,26 @@
+<web-app>
+    <servlet>
+        <servlet-name>RegistrationPage</servlet-name>
+        <servlet-class>register.RegistrationServlet</servlet-class>
+
+        <init-param>
+            <param-name>firstname</param-name>
+            <param-value>Aslan</param-value>
+        </init-param>
+
+        <init-param>
+            <param-name>lastname</param-name>
+            <param-value>Shaizhan</param-value>
+        </init-param>
+
+        <init-param>
+            <param-name>password</param-name>
+            <param-value>mypassword</param-value>
+        </init-param>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RegistrationPage</servlet-name>
+        <url-pattern>register</url-pattern>
+    </servlet-mapping>
+</web-app>
